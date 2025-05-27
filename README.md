@@ -34,16 +34,3 @@ This repository contains complete Terraform code for deploying a Kubernetes clus
 
 > **Note:** Sensitive files (like `sa-key.json` and `.tfstate`) have been removed from version control. Please generate or configure your own credentials and manage state securely.
 
-## Usage
-
-1. **Copy the example variables file:**
-cp terraform.tfvars.example terraform.tfvars
-
-2. **Edit `terraform.tfvars`**  
-Fill in your `cloud_id`, `folder_id`, and any other required variables.
-
-3. **Initialize and apply Terraform:**
-terraform init
-terraform plan
-terraform apply
-
