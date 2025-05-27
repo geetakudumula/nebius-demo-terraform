@@ -39,7 +39,6 @@ This repository contains complete Terraform code for deploying a Kubernetes clus
 1. **Copy the example variables file:**
 cp terraform.tfvars.example terraform.tfvars
 
-text
 2. **Edit `terraform.tfvars`**  
 Fill in your `cloud_id`, `folder_id`, and any other required variables.
 
