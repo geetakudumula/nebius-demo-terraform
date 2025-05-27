@@ -1,0 +1,8 @@
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan*
+.terraform/
+*.tfvars
+sa-key.json
+*.backup
