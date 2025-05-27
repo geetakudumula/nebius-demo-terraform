@@ -15,7 +15,7 @@ This repository contains complete Terraform code for deploying a Kubernetes clus
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) >= 1.5
-- [Nebius CLI](https://cloud.nebius.ai/docs/cli/quickstart) installed and authenticated
+- [Nebius/Yandex Cloud CLI (yc) installed](https://cloud.nebius.ai/docs/cli/quickstart) installed and authenticated
 - Nebius Terraform provider configured
 - Access to an existing VPC and required resource IDs
 
