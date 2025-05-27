@@ -4,10 +4,10 @@
 Complete Terraform infrastructure code for deploying Kubernetes cluster with GPU node groups on Nebius AI platform.
 
 ## Key Features
-- ✅ GPU Fabric Configuration (fabric-2)
-- ✅ Capacity Limits Enforcement (16 H100s training, 4 H100s inference)
-- ✅ Service Accounts and IAM Configuration
-- ✅ Uses existing VPC resources (due to folder restrictions)
+- GPU Fabric Configuration (fabric-2)
+- Capacity Limits Enforcement (16 H100s training, 4 H100s inference)
+- Service Accounts and IAM Configuration
+- Uses existing VPC resources (due to folder restrictions)
 
 ## Files
 - `versions.tf` - Provider requirements
