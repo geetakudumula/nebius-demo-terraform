@@ -1,0 +1,15 @@
+# Nebius Cloud Configuration
+cloud_id  = "your-cloud-id"
+folder_id = "your-folder-id"
+zone      = "eu-north1-c"
+
+# CRITICAL: GPU Fabric Configuration (MUST be 2, 4, or 6)
+gpu_fabric = 2
+
+# Labels
+labels = {
+  environment = "demo"
+  project     = "nebius-ai-interview"
+  managed_by  = "terraform"
+  candidate   = "your-name"
+}
